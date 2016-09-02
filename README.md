@@ -6,7 +6,9 @@ For now, only message receive and sending.
 
 Try to compile it (with Visual Studio 2010) and test by youself or use already compiled binaries.
 
-# Links
+
+
+Links:
 
 Protocol brief overview: 
 http://skype-open-source2.blogspot.ru/2016/06/skype-protocol-dumps.html
