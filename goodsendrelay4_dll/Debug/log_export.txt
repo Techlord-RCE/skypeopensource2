@@ -1,0 +1,33 @@
+Microsoft (R) COFF/PE Dumper Version 10.00.30319.01
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file goodsendrelay4_dll.dll
+
+File Type: DLL
+
+  Section contains the following exports for goodsendrelay4_dll.dll
+
+    00000000 characteristics
+    56C6D86B time date stamp Fri Feb 19 15:55:07 2016
+        0.00 version
+           1 ordinal base
+           6 number of functions
+           6 number of names
+
+    ordinal hint RVA      name
+
+          1    0 000137F0 ??0Cgoodsendrelay4_dll@@QAE@XZ = ??0Cgoodsendrelay4_dll@@QAE@XZ (public: __thiscall Cgoodsendrelay4_dll::Cgoodsendrelay4_dll(void))
+          2    1 00013790 ??4Cgoodsendrelay4_dll@@QAEAAV0@ABV0@@Z = ??4Cgoodsendrelay4_dll@@QAEAAV0@ABV0@@Z (public: class Cgoodsendrelay4_dll & __thiscall Cgoodsendrelay4_dll::operator=(class Cgoodsendrelay4_dll const &))
+          3    2 000137C0 ?fngoodsendrelay4_dll@@YAHXZ = ?fngoodsendrelay4_dll@@YAHXZ (int __cdecl fngoodsendrelay4_dll(void))
+          4    3 00091480 ?ngoodsendrelay4_dll@@3HA = ?ngoodsendrelay4_dll@@3HA (int ngoodsendrelay4_dll)
+          5    4 00011F30 _directsend@8 = _directsend@8
+          6    5 00011E80 _relaysend@16 = _relaysend@16
+
+  Summary
+
+        D000 .data
+        D000 .rdata
+        7000 .reloc
+        1000 .rsrc
+       7D000 .text

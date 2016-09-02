@@ -1,0 +1,238 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{EC16431C-142F-4B13-9FE0-2C59435575C2}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>goodrecvrelay3</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="blobs\blob1.c" />
+    <ClCompile Include="blobs\blob2.c" />
+    <ClCompile Include="blobs\blob53.c" />
+    <ClCompile Include="blobs\blob58.c" />
+    <ClCompile Include="blobs\blob6Dreq.c" />
+    <ClCompile Include="blobs\blob6D_cmd0C_chatend.c" />
+    <ClCompile Include="blobs\blob6D_cmd0D_chatinit.c" />
+    <ClCompile Include="blobs\blob6D_cmd10_unkheader.c" />
+    <ClCompile Include="blobs\blob6D_cmd13_sendend.c" />
+    <ClCompile Include="blobs\blob6D_cmd13_sendheaders.c" />
+    <ClCompile Include="blobs\blob6D_cmd13_sendheaders2.c" />
+    <ClCompile Include="blobs\blob6D_cmd15_reqmsgbody.c" />
+    <ClCompile Include="blobs\blob6D_cmd1B_closeconnect.c" />
+    <ClCompile Include="blobs\blob6D_cmd1D_requic.c" />
+    <ClCompile Include="blobs\blob6D_cmd24_chatsign.c" />
+    <ClCompile Include="blobs\blob6D_cmd27_finish.c" />
+    <ClCompile Include="blobs\blob6D_cmd2A_headerssign.c" />
+    <ClCompile Include="blobs\blob6D_cmd2B_msgbody.c" />
+    <ClCompile Include="blobs\blob7A.c" />
+    <ClCompile Include="blobs\blob7B.c" />
+    <ClCompile Include="blobs\blob7D.c" />
+    <ClCompile Include="blobs\blob_enc.c" />
+    <ClCompile Include="blobs\blob_newblk.c" />
+    <ClCompile Include="blobs\recv_blob6D_cmd0Fsmall_chatok.c" />
+    <ClCompile Include="blobs\recv_blob6D_cmd0F_chatok.c" />
+    <ClCompile Include="blobs\recv_blob6D_cmd10_lastmyheader.c" />
+    <ClCompile Include="blobs\recv_blob6D_cmd10_pos1.c" />
+    <ClCompile Include="blobs\recv_blob6D_cmd10_pos2.c" />
+    <ClCompile Include="blobs\recv_blob6D_cmd13_sendheaders.c" />
+    <ClCompile Include="blobs\recv_blob6D_cmd13_sendheaders2.c" />
+    <ClCompile Include="blobs\recv_blob6D_cmd13_sendheaders3.c" />
+    <ClCompile Include="blobs\recv_blob6D_cmd13_sendheaders4.c" />
+    <ClCompile Include="blobs\recv_blob6D_cmd13_sendheaders5.c" />
+    <ClCompile Include="blobs\recv_blob6D_cmd15_reqmsgbody.c" />
+    <ClCompile Include="blobs\recv_blob6D_cmd1E_uicreply.c" />
+    <ClCompile Include="blobs\recv_blob6D_cmd23_initreq.c" />
+    <ClCompile Include="blobs\recv_blob6D_cmd27_finish.c" />
+    <ClCompile Include="blobs\recv_blob6D_cmd29_sign2req.c" />
+    <ClCompile Include="blobs\recv_blob6D_cmd2B_msgbody.c" />
+    <ClCompile Include="blobs\recv_blob6D_cmd46_chatend.c" />
+    <ClCompile Include="blobs\recv_blob6D_error.c" />
+    <ClCompile Include="blobs\recv_blob6D_error2.c" />
+    <ClCompile Include="chatrecv_newchat_init.c" />
+    <ClCompile Include="chatrecv_restorechat.c" />
+    <ClCompile Include="crc32_util.c" />
+    <ClCompile Include="cred_util.c" />
+    <ClCompile Include="crypto\md5.c" />
+    <ClCompile Include="crypto\rijndael.c" />
+    <ClCompile Include="crypto\sha1.c" />
+    <ClCompile Include="db\sqlite3.c" />
+    <ClCompile Include="dh_384.c" />
+    <ClCompile Include="for_cmd.c" />
+    <ClCompile Include="for_dll.c" />
+    <ClCompile Include="get_blob.c" />
+    <ClCompile Include="get_blob2.c" />
+    <ClCompile Include="goodrecvrelay3.c" />
+    <ClCompile Include="headers_util.c" />
+    <ClCompile Include="miracl_lib\mraes.c" />
+    <ClCompile Include="miracl_lib\mralloc.c" />
+    <ClCompile Include="miracl_lib\mrarth0.c" />
+    <ClCompile Include="miracl_lib\mrarth1.c" />
+    <ClCompile Include="miracl_lib\mrarth2.c" />
+    <ClCompile Include="miracl_lib\mrarth3.c" />
+    <ClCompile Include="miracl_lib\mrbits.c" />
+    <ClCompile Include="miracl_lib\mrbrick.c" />
+    <ClCompile Include="miracl_lib\mrbuild.c" />
+    <ClCompile Include="miracl_lib\mrcore.c" />
+    <ClCompile Include="miracl_lib\mrcrt.c" />
+    <ClCompile Include="miracl_lib\mrcurve.c" />
+    <ClCompile Include="miracl_lib\mrdouble.c" />
+    <ClCompile Include="miracl_lib\mrebrick.c" />
+    <ClCompile Include="miracl_lib\mrec2m.c" />
+    <ClCompile Include="miracl_lib\mrecn2.c" />
+    <ClCompile Include="miracl_lib\mrfast.c" />
+    <ClCompile Include="miracl_lib\mrflash.c" />
+    <ClCompile Include="miracl_lib\mrflsh1.c" />
+    <ClCompile Include="miracl_lib\mrflsh2.c" />
+    <ClCompile Include="miracl_lib\mrflsh3.c" />
+    <ClCompile Include="miracl_lib\mrflsh4.c" />
+    <ClCompile Include="miracl_lib\mrfrnd.c" />
+    <ClCompile Include="miracl_lib\mrgcd.c" />
+    <ClCompile Include="miracl_lib\mrgcm.c" />
+    <ClCompile Include="miracl_lib\mrgf2m.c" />
+    <ClCompile Include="miracl_lib\mrio1.c" />
+    <ClCompile Include="miracl_lib\mrio2.c" />
+    <ClCompile Include="miracl_lib\mrjack.c" />
+    <ClCompile Include="miracl_lib\mrlucas.c" />
+    <ClCompile Include="miracl_lib\mrmonty.c" />
+    <ClCompile Include="miracl_lib\mrmuldv.c" />
+    <ClCompile Include="miracl_lib\mrpi.c" />
+    <ClCompile Include="miracl_lib\mrpower.c" />
+    <ClCompile Include="miracl_lib\mrprime.c" />
+    <ClCompile Include="miracl_lib\mrrand.c" />
+    <ClCompile Include="miracl_lib\mrround.c" />
+    <ClCompile Include="miracl_lib\mrscrt.c" />
+    <ClCompile Include="miracl_lib\mrshs.c" />
+    <ClCompile Include="miracl_lib\mrshs256.c" />
+    <ClCompile Include="miracl_lib\mrshs512.c" />
+    <ClCompile Include="miracl_lib\mrsmall.c" />
+    <ClCompile Include="miracl_lib\mrsroot.c" />
+    <ClCompile Include="miracl_lib\mrstrong.c" />
+    <ClCompile Include="miracl_lib\mrxgcd.c" />
+    <ClCompile Include="miracl_lib\mrzzn2.c" />
+    <ClCompile Include="miracl_lib\mrzzn2b.c" />
+    <ClCompile Include="miracl_lib\mrzzn3.c" />
+    <ClCompile Include="miramax.c" />
+    <ClCompile Include="mycrypto.c" />
+    <ClCompile Include="recovery_signed_data.c" />
+    <ClCompile Include="relays_util.c" />
+    <ClCompile Include="relay_main.c" />
+    <ClCompile Include="restore_key.c" />
+    <ClCompile Include="skype\ext42.c" />
+    <ClCompile Include="skype\ext42_2.c" />
+    <ClCompile Include="skype\ext42_checkblob.c" />
+    <ClCompile Include="skype\ext42_getobj00.c" />
+    <ClCompile Include="skype\ext42_getobj00seq.c" />
+    <ClCompile Include="skype\ext42_getobj02ip.c" />
+    <ClCompile Include="skype\pack-4142.c" />
+    <ClCompile Include="skype\skype_rc4.c" />
+    <ClCompile Include="skype\unpack-4142.c" />
+    <ClCompile Include="skypush3.c" />
+    <ClCompile Include="skyrel3.c" />
+    <ClCompile Include="skyrelay2.c" />
+    <ClCompile Include="sock_comm.c" />
+    <ClCompile Include="sock_comm_udp.c" />
+    <ClCompile Include="sqllite_recv.c" />
+    <ClCompile Include="sqllite_util.c" />
+    <ClCompile Include="tcp_dbio.c" />
+    <ClCompile Include="tcp_fileio.c" />
+    <ClCompile Include="tcp_newblk_prep.c" />
+    <ClCompile Include="tcp_pkt.c" />
+    <ClCompile Include="tcp_recv.c" />
+    <ClCompile Include="tcp_sess1.c" />
+    <ClCompile Include="tcp_sess1_old.c" />
+    <ClCompile Include="tcp_setup.c" />
+    <ClCompile Include="tools_file.c" />
+    <ClCompile Include="udp_pkt.c" />
+    <ClCompile Include="unicode.c" />
+    <ClCompile Include="util.c" />
+    <ClCompile Include="util_printf.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="crypto\md5.h" />
+    <ClInclude Include="crypto\rijndael.h" />
+    <ClInclude Include="crypto\sha1.h" />
+    <ClInclude Include="dbsql.h" />
+    <ClInclude Include="db\sqlite3.h" />
+    <ClInclude Include="db\sqlite3ext.h" />
+    <ClInclude Include="decode41.h" />
+    <ClInclude Include="defs.h" />
+    <ClInclude Include="headers_util.h" />
+    <ClInclude Include="miracl_lib\miracl.h" />
+    <ClInclude Include="miracl_lib\mirdef.h" />
+    <ClInclude Include="relays_util.h" />
+    <ClInclude Include="short_types.h" />
+    <ClInclude Include="skype\skype_basics.h" />
+    <ClInclude Include="skype\skype_rc4.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

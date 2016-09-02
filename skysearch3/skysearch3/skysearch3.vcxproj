@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{C5D422CF-FF8B-4FCC-B8FE-3BE9D201ACF9}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>skysearch3</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="crypto\md5.h" />
+    <ClInclude Include="crypto\rijndael.h" />
+    <ClInclude Include="crypto\sha1.h" />
+    <ClInclude Include="miracl_lib\miracl.h" />
+    <ClInclude Include="miracl_lib\mirdef.h" />
+    <ClInclude Include="short_types.h" />
+    <ClInclude Include="skype\skype_basics.h" />
+    <ClInclude Include="skype\skype_rc4.h" />
+    <ClInclude Include="slots_util.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="blob_snode1.c" />
+    <ClCompile Include="crypto\md5.c" />
+    <ClCompile Include="crypto\rijndael.c" />
+    <ClCompile Include="crypto\sha1.c" />
+    <ClCompile Include="decode_profile.c" />
+    <ClCompile Include="decode_profile2.c" />
+    <ClCompile Include="dh_384.c" />
+    <ClCompile Include="for_cmd.c" />
+    <ClCompile Include="get_blob.c" />
+    <ClCompile Include="global_ptr.c" />
+    <ClCompile Include="miracl_lib\mraes.c" />
+    <ClCompile Include="miracl_lib\mralloc.c" />
+    <ClCompile Include="miracl_lib\mrarth0.c" />
+    <ClCompile Include="miracl_lib\mrarth1.c" />
+    <ClCompile Include="miracl_lib\mrarth2.c" />
+    <ClCompile Include="miracl_lib\mrarth3.c" />
+    <ClCompile Include="miracl_lib\mrbits.c" />
+    <ClCompile Include="miracl_lib\mrbrick.c" />
+    <ClCompile Include="miracl_lib\mrbuild.c" />
+    <ClCompile Include="miracl_lib\mrcore.c" />
+    <ClCompile Include="miracl_lib\mrcrt.c" />
+    <ClCompile Include="miracl_lib\mrcurve.c" />
+    <ClCompile Include="miracl_lib\mrdouble.c" />
+    <ClCompile Include="miracl_lib\mrebrick.c" />
+    <ClCompile Include="miracl_lib\mrec2m.c" />
+    <ClCompile Include="miracl_lib\mrecn2.c" />
+    <ClCompile Include="miracl_lib\mrfast.c" />
+    <ClCompile Include="miracl_lib\mrflash.c" />
+    <ClCompile Include="miracl_lib\mrflsh1.c" />
+    <ClCompile Include="miracl_lib\mrflsh2.c" />
+    <ClCompile Include="miracl_lib\mrflsh3.c" />
+    <ClCompile Include="miracl_lib\mrflsh4.c" />
+    <ClCompile Include="miracl_lib\mrfrnd.c" />
+    <ClCompile Include="miracl_lib\mrgcd.c" />
+    <ClCompile Include="miracl_lib\mrgcm.c" />
+    <ClCompile Include="miracl_lib\mrgf2m.c" />
+    <ClCompile Include="miracl_lib\mrio1.c" />
+    <ClCompile Include="miracl_lib\mrio2.c" />
+    <ClCompile Include="miracl_lib\mrjack.c" />
+    <ClCompile Include="miracl_lib\mrlucas.c" />
+    <ClCompile Include="miracl_lib\mrmonty.c" />
+    <ClCompile Include="miracl_lib\mrmuldv.c" />
+    <ClCompile Include="miracl_lib\mrpi.c" />
+    <ClCompile Include="miracl_lib\mrpower.c" />
+    <ClCompile Include="miracl_lib\mrprime.c" />
+    <ClCompile Include="miracl_lib\mrrand.c" />
+    <ClCompile Include="miracl_lib\mrround.c" />
+    <ClCompile Include="miracl_lib\mrscrt.c" />
+    <ClCompile Include="miracl_lib\mrshs.c" />
+    <ClCompile Include="miracl_lib\mrshs256.c" />
+    <ClCompile Include="miracl_lib\mrshs512.c" />
+    <ClCompile Include="miracl_lib\mrsmall.c" />
+    <ClCompile Include="miracl_lib\mrsroot.c" />
+    <ClCompile Include="miracl_lib\mrstrong.c" />
+    <ClCompile Include="miracl_lib\mrxgcd.c" />
+    <ClCompile Include="miracl_lib\mrzzn2.c" />
+    <ClCompile Include="miracl_lib\mrzzn2b.c" />
+    <ClCompile Include="miracl_lib\mrzzn3.c" />
+    <ClCompile Include="miramax.c" />
+    <ClCompile Include="skype\ext42.c" />
+    <ClCompile Include="skype\pack-4142.c" />
+    <ClCompile Include="skype\skype_rc4.c" />
+    <ClCompile Include="skype\unpack-4142.c" />
+    <ClCompile Include="skysearch3.c" />
+    <ClCompile Include="slots_util.c" />
+    <ClCompile Include="sock_comm.c" />
+    <ClCompile Include="sock_comm_udp.c" />
+    <ClCompile Include="tcp_setup.c" />
+    <ClCompile Include="udp_pkt.c" />
+    <ClCompile Include="util.c" />
+    <ClCompile Include="vcard_save.c" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

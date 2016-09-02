@@ -1,0 +1,27 @@
+        private void get_version_test() {
+            string myip;
+            string remote_name;
+            string vcard;
+            StringBuilder output = new StringBuilder(1000);
+            string version;
+
+            myip = "78.81.150.182";
+            remote_name = "agregatore";
+            vcard = "0x7e0d88a62c69f917-s-s157.55.130.174:40017-r0.0.0.0:0-l0.0.0.0:0";
+
+            EpycsGetVersion(myip, remote_name, vcard, output);
+            version = output.ToString();
+            richTextBox1.Text += "Version: " + version + "\n";
+
+            SetContactVersion(remote_name, version);
+
+        }
+
+
+
+            //Thread thread = new Thread(new ThreadStart(WorkThreadFunction));
+            //thread.Start();
+
+            //Thread t = new Thread(new ParameterizedThreadStart(myMethod));
+            //t.Start(myParameterObject);
+

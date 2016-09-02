@@ -1,0 +1,20 @@
+Microsoft (R) COFF/PE Dumper Version 10.00.30319.01
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file skyauth4_dll.dll
+
+File Type: DLL
+
+  Image has the following dependencies:
+
+    WS2_32.dll
+    KERNEL32.dll
+
+  Summary
+
+        7000 .data
+       1B000 .rdata
+        9000 .reloc
+        1000 .rsrc
+       A8000 .text

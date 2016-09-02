@@ -1,0 +1,34 @@
+Microsoft (R) COFF/PE Dumper Version 10.00.30319.01
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file skyauth4_dll.dll
+
+File Type: DLL
+
+  Section contains the following exports for skyauth4_dll.dll
+
+    00000000 characteristics
+    5568A7A8 time date stamp Fri May 29 20:53:44 2015
+        0.00 version
+           1 ordinal base
+           5 number of functions
+           5 number of names
+
+    ordinal hint RVA      name
+
+          1    0 0003DBFE ??0Cskyauth4_dll@@QAE@XZ = @ILT+3065(??0Cskyauth4_dll@@QAE@XZ)
+          2    1 0003D762 ??4Cskyauth4_dll@@QAEAAV0@ABV0@@Z = @ILT+1885(??4Cskyauth4_dll@@QAEAAV0@ABV0@@Z)
+          3    2 0003D6B8 ?fnskyauth4_dll@@YAHXZ = @ILT+1715(?fnskyauth4_dll@@YAHXZ)
+          4    3 000C4E24 ?nskyauth4_dll@@3HA = ?nskyauth4_dll@@3HA (int nskyauth4_dll)
+          5    4 0003D46A _sayhello@4 = @ILT+1125(_sayhello@4)
+
+  Summary
+
+        5000 .data
+        1000 .idata
+        A000 .rdata
+        6000 .reloc
+        1000 .rsrc
+       7A000 .text
+       3C000 .textbss

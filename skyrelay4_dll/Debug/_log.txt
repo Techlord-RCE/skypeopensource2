@@ -1,0 +1,34 @@
+Microsoft (R) COFF/PE Dumper Version 10.00.30319.01
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file skyrelay4_dll.dll
+
+File Type: DLL
+
+  Section contains the following exports for skyrelay4_dll.dll
+
+    00000000 characteristics
+    55E289D7 time date stamp Sun Aug 30 07:43:03 2015
+        0.00 version
+           1 ordinal base
+           5 number of functions
+           5 number of names
+
+    ordinal hint RVA      name
+
+          1    0 000434BF ??0Cskyrelay4_dll@@QAE@XZ
+          2    1 0004386B ??4Cskyrelay4_dll@@QAEAAV0@ABV0@@Z
+          3    2 0004342E ?fnskyrelay4_dll@@YAHXZ
+          4    3 000D9BC8 ?nskyrelay4_dll@@3HA
+          5    4 00043ADC _skyrelay@16
+
+  Summary
+
+        7000 .data
+        1000 .idata
+        C000 .rdata
+        7000 .reloc
+        1000 .rsrc
+       86000 .text
+       42000 .textbss

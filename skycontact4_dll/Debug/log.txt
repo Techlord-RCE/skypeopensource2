@@ -1,0 +1,34 @@
+Microsoft (R) COFF/PE Dumper Version 10.00.30319.01
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file skycontact4_dll.dll
+
+File Type: DLL
+
+  Section contains the following exports for skycontact4_dll.dll
+
+    00000000 characteristics
+    55695E6D time date stamp Sat May 30 09:53:33 2015
+        0.00 version
+           1 ordinal base
+           5 number of functions
+           5 number of names
+
+    ordinal hint RVA      name
+
+          1    0 0003EA4B ??0Cskycontact4_dll@@QAE@XZ = @ILT+2630(??0Cskycontact4_dll@@QAE@XZ)
+          2    1 0003E357 ??4Cskycontact4_dll@@QAEAAV0@ABV0@@Z = @ILT+850(??4Cskycontact4_dll@@QAEAAV0@ABV0@@Z)
+          3    2 0003E60E ?fnskycontact4_dll@@YAHXZ = @ILT+1545(?fnskycontact4_dll@@YAHXZ)
+          4    3 000C9844 ?nskycontact4_dll@@3HA = ?nskycontact4_dll@@3HA (int nskycontact4_dll)
+          5    4 0003E776 _skycontact@8 = @ILT+1905(_skycontact@8)
+
+  Summary
+
+        7000 .data
+        1000 .idata
+        B000 .rdata
+        6000 .reloc
+        1000 .rsrc
+       7C000 .text
+       3D000 .textbss

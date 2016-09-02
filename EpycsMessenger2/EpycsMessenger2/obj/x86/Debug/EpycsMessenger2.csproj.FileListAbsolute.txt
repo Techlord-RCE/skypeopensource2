@@ -1,0 +1,13 @@
+C:\vcnet_proj\EpycsMessenger2\EpycsMessenger2\obj\x86\Debug\EpycsMessenger2.Form1.resources
+C:\vcnet_proj\EpycsMessenger2\EpycsMessenger2\obj\x86\Debug\EpycsMessenger2.Properties.Resources.resources
+C:\vcnet_proj\EpycsMessenger2\EpycsMessenger2\bin\Debug\EpycsMessenger2.exe
+C:\vcnet_proj\EpycsMessenger2\EpycsMessenger2\bin\Debug\EpycsMessenger2.pdb
+C:\vcnet_proj\EpycsMessenger2\EpycsMessenger2\obj\x86\Debug\EpycsMessenger2.exe
+C:\vcnet_proj\EpycsMessenger2\EpycsMessenger2\obj\x86\Debug\EpycsMessenger2.pdb
+C:\vcnet_proj\EpycsMessenger2\EpycsMessenger2\obj\x86\Debug\EpycsMessenger2.Form2.resources
+C:\vcnet_proj\EpycsMessenger2\EpycsMessenger2\obj\x86\Debug\EpycsMessenger2.csproj.GenerateResource.Cache
+C:\vcnet_proj\EpycsMessenger2\EpycsMessenger2\obj\x86\Debug\EpycsMessenger2.Form3.resources
+C:\vcnet_proj\EpycsMessenger2\EpycsMessenger2\obj\x86\Debug\EpycsMessenger2.csprojResolveAssemblyReference.cache
+C:\vcnet_proj\EpycsMessenger2\EpycsMessenger2\obj\x86\Debug\EpycsMessenger2.Form4.resources
+C:\vcnet_proj\EpycsMessenger2\EpycsMessenger2\obj\x86\Debug\EpycsMessenger2.Form5.resources
+C:\vcnet_proj\EpycsMessenger2\EpycsMessenger2\obj\x86\Debug\EpycsMessenger2.Form6.resources

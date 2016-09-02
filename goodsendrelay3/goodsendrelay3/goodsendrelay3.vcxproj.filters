@@ -1,0 +1,468 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\db">
+      <UniqueIdentifier>{99e0fc4d-f45a-430b-b7ce-7ada3e0ffa58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\crypto">
+      <UniqueIdentifier>{9e50d6ee-fbc4-400b-b123-db3b82edefc9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\miracl_lib">
+      <UniqueIdentifier>{a9e73c6e-b275-45c6-8148-bc59dc2a8e5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\skype">
+      <UniqueIdentifier>{da2b1d7b-f1d1-4cfd-852e-f04797304040}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\blobs">
+      <UniqueIdentifier>{b27b5cde-2d7f-4be2-8e12-b2d2470161f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\db">
+      <UniqueIdentifier>{e5b0c2b9-5124-4df5-81d9-64156f1c6d9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\crypto">
+      <UniqueIdentifier>{1a04c5b8-8a2c-43db-bbbe-001cf98ba6ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\miracl_lib">
+      <UniqueIdentifier>{8d3abddf-b863-49f0-9718-31488c45596c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\skype">
+      <UniqueIdentifier>{6c457619-e67e-4063-a2f2-e1a7443a50cf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="db\sqlite3.h">
+      <Filter>Header Files\db</Filter>
+    </ClInclude>
+    <ClInclude Include="db\sqlite3ext.h">
+      <Filter>Header Files\db</Filter>
+    </ClInclude>
+    <ClInclude Include="crypto\md5.h">
+      <Filter>Header Files\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="crypto\rijndael.h">
+      <Filter>Header Files\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="crypto\sha1.h">
+      <Filter>Header Files\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="miracl_lib\miracl.h">
+      <Filter>Header Files\miracl_lib</Filter>
+    </ClInclude>
+    <ClInclude Include="miracl_lib\mirdef.h">
+      <Filter>Header Files\miracl_lib</Filter>
+    </ClInclude>
+    <ClInclude Include="skype\skype_basics.h">
+      <Filter>Header Files\skype</Filter>
+    </ClInclude>
+    <ClInclude Include="skype\skype_rc4.h">
+      <Filter>Header Files\skype</Filter>
+    </ClInclude>
+    <ClInclude Include="dbsql.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="decode41.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="defs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="headers_util.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="relays_util.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="short_types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="db\sqlite3.c">
+      <Filter>Source Files\db</Filter>
+    </ClCompile>
+    <ClCompile Include="blobs\blob_enc.c">
+      <Filter>Source Files\blobs</Filter>
+    </ClCompile>
+    <ClCompile Include="blobs\blob_newblk.c">
+      <Filter>Source Files\blobs</Filter>
+    </ClCompile>
+    <ClCompile Include="blobs\blob1.c">
+      <Filter>Source Files\blobs</Filter>
+    </ClCompile>
+    <ClCompile Include="blobs\blob2.c">
+      <Filter>Source Files\blobs</Filter>
+    </ClCompile>
+    <ClCompile Include="blobs\blob6D_cmd0C_chatend.c">
+      <Filter>Source Files\blobs</Filter>
+    </ClCompile>
+    <ClCompile Include="blobs\blob6D_cmd0D_chatinit.c">
+      <Filter>Source Files\blobs</Filter>
+    </ClCompile>
+    <ClCompile Include="blobs\blob6D_cmd1D_requic.c">
+      <Filter>Source Files\blobs</Filter>
+    </ClCompile>
+    <ClCompile Include="blobs\blob6D_cmd2A_headerssign.c">
+      <Filter>Source Files\blobs</Filter>
+    </ClCompile>
+    <ClCompile Include="blobs\blob6D_cmd2B_msgbody.c">
+      <Filter>Source Files\blobs</Filter>
+    </ClCompile>
+    <ClCompile Include="blobs\blob6D_cmd10_unkheader.c">
+      <Filter>Source Files\blobs</Filter>
+    </ClCompile>
+    <ClCompile Include="blobs\blob6D_cmd13_sendend.c">
+      <Filter>Source Files\blobs</Filter>
+    </ClCompile>
+    <ClCompile Include="blobs\blob6D_cmd13_sendheaders.c">
+      <Filter>Source Files\blobs</Filter>
+    </ClCompile>
+    <ClCompile Include="blobs\blob6D_cmd13_sendheaders2.c">
+      <Filter>Source Files\blobs</Filter>
+    </ClCompile>
+    <ClCompile Include="blobs\blob6D_cmd24_chatsign.c">
+      <Filter>Source Files\blobs</Filter>
+    </ClCompile>
+    <ClCompile Include="blobs\blob6D_cmd27_finish.c">
+      <Filter>Source Files\blobs</Filter>
+    </ClCompile>
+    <ClCompile Include="blobs\blob6D_cmd46_chatend.c">
+      <Filter>Source Files\blobs</Filter>
+    </ClCompile>
+    <ClCompile Include="blobs\blob6Dreq.c">
+      <Filter>Source Files\blobs</Filter>
+    </ClCompile>
+    <ClCompile Include="blobs\blob7A.c">
+      <Filter>Source Files\blobs</Filter>
+    </ClCompile>
+    <ClCompile Include="blobs\blob7B.c">
+      <Filter>Source Files\blobs</Filter>
+    </ClCompile>
+    <ClCompile Include="blobs\blob7D.c">
+      <Filter>Source Files\blobs</Filter>
+    </ClCompile>
+    <ClCompile Include="blobs\blob53.c">
+      <Filter>Source Files\blobs</Filter>
+    </ClCompile>
+    <ClCompile Include="blobs\blob58.c">
+      <Filter>Source Files\blobs</Filter>
+    </ClCompile>
+    <ClCompile Include="blobs\recv_blob6D_cmd15.c">
+      <Filter>Source Files\blobs</Filter>
+    </ClCompile>
+    <ClCompile Include="blobs\recv_blob6D_error.c">
+      <Filter>Source Files\blobs</Filter>
+    </ClCompile>
+    <ClCompile Include="crypto\md5.c">
+      <Filter>Source Files\crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="crypto\rijndael.c">
+      <Filter>Source Files\crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="crypto\sha1.c">
+      <Filter>Source Files\crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="miracl_lib\mraes.c">
+      <Filter>Source Files\miracl_lib</Filter>
+    </ClCompile>
+    <ClCompile Include="miracl_lib\mralloc.c">
+      <Filter>Source Files\miracl_lib</Filter>
+    </ClCompile>
+    <ClCompile Include="miracl_lib\mrarth0.c">
+      <Filter>Source Files\miracl_lib</Filter>
+    </ClCompile>
+    <ClCompile Include="miracl_lib\mrarth1.c">
+      <Filter>Source Files\miracl_lib</Filter>
+    </ClCompile>
+    <ClCompile Include="miracl_lib\mrarth2.c">
+      <Filter>Source Files\miracl_lib</Filter>
+    </ClCompile>
+    <ClCompile Include="miracl_lib\mrarth3.c">
+      <Filter>Source Files\miracl_lib</Filter>
+    </ClCompile>
+    <ClCompile Include="miracl_lib\mrbits.c">
+      <Filter>Source Files\miracl_lib</Filter>
+    </ClCompile>
+    <ClCompile Include="miracl_lib\mrbrick.c">
+      <Filter>Source Files\miracl_lib</Filter>
+    </ClCompile>
+    <ClCompile Include="miracl_lib\mrbuild.c">
+      <Filter>Source Files\miracl_lib</Filter>
+    </ClCompile>
+    <ClCompile Include="miracl_lib\mrcore.c">
+      <Filter>Source Files\miracl_lib</Filter>
+    </ClCompile>
+    <ClCompile Include="miracl_lib\mrcrt.c">
+      <Filter>Source Files\miracl_lib</Filter>
+    </ClCompile>
+    <ClCompile Include="miracl_lib\mrcurve.c">
+      <Filter>Source Files\miracl_lib</Filter>
+    </ClCompile>
+    <ClCompile Include="miracl_lib\mrdouble.c">
+      <Filter>Source Files\miracl_lib</Filter>
+    </ClCompile>
+    <ClCompile Include="miracl_lib\mrebrick.c">
+      <Filter>Source Files\miracl_lib</Filter>
+    </ClCompile>
+    <ClCompile Include="miracl_lib\mrec2m.c">
+      <Filter>Source Files\miracl_lib</Filter>
+    </ClCompile>
+    <ClCompile Include="miracl_lib\mrecn2.c">
+      <Filter>Source Files\miracl_lib</Filter>
+    </ClCompile>
+    <ClCompile Include="miracl_lib\mrfast.c">
+      <Filter>Source Files\miracl_lib</Filter>
+    </ClCompile>
+    <ClCompile Include="miracl_lib\mrflash.c">
+      <Filter>Source Files\miracl_lib</Filter>
+    </ClCompile>
+    <ClCompile Include="miracl_lib\mrflsh1.c">
+      <Filter>Source Files\miracl_lib</Filter>
+    </ClCompile>
+    <ClCompile Include="miracl_lib\mrflsh2.c">
+      <Filter>Source Files\miracl_lib</Filter>
+    </ClCompile>
+    <ClCompile Include="miracl_lib\mrflsh3.c">
+      <Filter>Source Files\miracl_lib</Filter>
+    </ClCompile>
+    <ClCompile Include="miracl_lib\mrflsh4.c">
+      <Filter>Source Files\miracl_lib</Filter>
+    </ClCompile>
+    <ClCompile Include="miracl_lib\mrfrnd.c">
+      <Filter>Source Files\miracl_lib</Filter>
+    </ClCompile>
+    <ClCompile Include="miracl_lib\mrgcd.c">
+      <Filter>Source Files\miracl_lib</Filter>
+    </ClCompile>
+    <ClCompile Include="miracl_lib\mrgcm.c">
+      <Filter>Source Files\miracl_lib</Filter>
+    </ClCompile>
+    <ClCompile Include="miracl_lib\mrgf2m.c">
+      <Filter>Source Files\miracl_lib</Filter>
+    </ClCompile>
+    <ClCompile Include="miracl_lib\mrio1.c">
+      <Filter>Source Files\miracl_lib</Filter>
+    </ClCompile>
+    <ClCompile Include="miracl_lib\mrio2.c">
+      <Filter>Source Files\miracl_lib</Filter>
+    </ClCompile>
+    <ClCompile Include="miracl_lib\mrjack.c">
+      <Filter>Source Files\miracl_lib</Filter>
+    </ClCompile>
+    <ClCompile Include="miracl_lib\mrlucas.c">
+      <Filter>Source Files\miracl_lib</Filter>
+    </ClCompile>
+    <ClCompile Include="miracl_lib\mrmonty.c">
+      <Filter>Source Files\miracl_lib</Filter>
+    </ClCompile>
+    <ClCompile Include="miracl_lib\mrmuldv.c">
+      <Filter>Source Files\miracl_lib</Filter>
+    </ClCompile>
+    <ClCompile Include="miracl_lib\mrpi.c">
+      <Filter>Source Files\miracl_lib</Filter>
+    </ClCompile>
+    <ClCompile Include="miracl_lib\mrpower.c">
+      <Filter>Source Files\miracl_lib</Filter>
+    </ClCompile>
+    <ClCompile Include="miracl_lib\mrprime.c">
+      <Filter>Source Files\miracl_lib</Filter>
+    </ClCompile>
+    <ClCompile Include="miracl_lib\mrrand.c">
+      <Filter>Source Files\miracl_lib</Filter>
+    </ClCompile>
+    <ClCompile Include="miracl_lib\mrround.c">
+      <Filter>Source Files\miracl_lib</Filter>
+    </ClCompile>
+    <ClCompile Include="miracl_lib\mrscrt.c">
+      <Filter>Source Files\miracl_lib</Filter>
+    </ClCompile>
+    <ClCompile Include="miracl_lib\mrshs.c">
+      <Filter>Source Files\miracl_lib</Filter>
+    </ClCompile>
+    <ClCompile Include="miracl_lib\mrshs256.c">
+      <Filter>Source Files\miracl_lib</Filter>
+    </ClCompile>
+    <ClCompile Include="miracl_lib\mrshs512.c">
+      <Filter>Source Files\miracl_lib</Filter>
+    </ClCompile>
+    <ClCompile Include="miracl_lib\mrsmall.c">
+      <Filter>Source Files\miracl_lib</Filter>
+    </ClCompile>
+    <ClCompile Include="miracl_lib\mrsroot.c">
+      <Filter>Source Files\miracl_lib</Filter>
+    </ClCompile>
+    <ClCompile Include="miracl_lib\mrstrong.c">
+      <Filter>Source Files\miracl_lib</Filter>
+    </ClCompile>
+    <ClCompile Include="miracl_lib\mrxgcd.c">
+      <Filter>Source Files\miracl_lib</Filter>
+    </ClCompile>
+    <ClCompile Include="miracl_lib\mrzzn2.c">
+      <Filter>Source Files\miracl_lib</Filter>
+    </ClCompile>
+    <ClCompile Include="miracl_lib\mrzzn2b.c">
+      <Filter>Source Files\miracl_lib</Filter>
+    </ClCompile>
+    <ClCompile Include="miracl_lib\mrzzn3.c">
+      <Filter>Source Files\miracl_lib</Filter>
+    </ClCompile>
+    <ClCompile Include="skype\ext42.c">
+      <Filter>Source Files\skype</Filter>
+    </ClCompile>
+    <ClCompile Include="skype\ext42_2.c">
+      <Filter>Source Files\skype</Filter>
+    </ClCompile>
+    <ClCompile Include="skype\ext42_checkblob.c">
+      <Filter>Source Files\skype</Filter>
+    </ClCompile>
+    <ClCompile Include="skype\ext42_getobj00.c">
+      <Filter>Source Files\skype</Filter>
+    </ClCompile>
+    <ClCompile Include="skype\ext42_getobj00seq.c">
+      <Filter>Source Files\skype</Filter>
+    </ClCompile>
+    <ClCompile Include="skype\ext42_getobj02ip.c">
+      <Filter>Source Files\skype</Filter>
+    </ClCompile>
+    <ClCompile Include="skype\pack-4142.c">
+      <Filter>Source Files\skype</Filter>
+    </ClCompile>
+    <ClCompile Include="skype\skype_rc4.c">
+      <Filter>Source Files\skype</Filter>
+    </ClCompile>
+    <ClCompile Include="skype\unpack-4142.c">
+      <Filter>Source Files\skype</Filter>
+    </ClCompile>
+    <ClCompile Include="chatsend_newchat_init.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="chatsend_restorechat.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="crc32_util.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cred_util.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dh_384.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="for_cmd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="for_dll.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="get_blob.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="get_blob2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="get_blob3.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="goodsendrelay3.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="headers_util.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="miramax.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mycrypto.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="recovery_signed_data.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="relay_main.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="relays_util.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="restore_key.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="skypush3.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="skyrel3.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="skyrelay2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sock_comm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sock_comm_udp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sqllite_send.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sqllite_util.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tcp_dbio.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tcp_fileio.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tcp_newblk_prep.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tcp_pkt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tcp_recv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tcp_sess1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tcp_setup.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tools_file.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="udp_pkt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="unicode.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="util.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="util_printf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="chatsend_restorechat2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="blobs\blob5E.c">
+      <Filter>Source Files\blobs</Filter>
+    </ClCompile>
+    <ClCompile Include="blobs\blob6D_cmd1B_closeconnect.c">
+      <Filter>Source Files\blobs</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

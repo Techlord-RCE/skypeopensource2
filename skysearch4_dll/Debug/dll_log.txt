@@ -1,0 +1,36 @@
+Microsoft (R) COFF/PE Dumper Version 10.00.30319.01
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file skysearch4_dll.dll
+
+File Type: DLL
+
+  Section contains the following exports for skysearch4_dll.dll
+
+    00000000 characteristics
+    55D7B94C time date stamp Sat Aug 22 02:50:36 2015
+        0.00 version
+           1 ordinal base
+           7 number of functions
+           7 number of names
+
+    ordinal hint RVA      name
+
+          1    0 0004037F ??0Cskysearch4_dll@@QAE@XZ = @ILT+890(??0Cskysearch4_dll@@QAE@XZ)
+          2    1 0004010E ??4Cskysearch4_dll@@QAEAAV0@ABV0@@Z = @ILT+265(??4Cskysearch4_dll@@QAEAAV0@ABV0@@Z)
+          3    2 000401DB ?fnskysearch4_dll@@YAHXZ = @ILT+470(?fnskysearch4_dll@@YAHXZ)
+          4    3 000D04E8 ?nskysearch4_dll@@3HA = ?nskysearch4_dll@@3HA (int nskysearch4_dll)
+          5    4 0004017C _skysearch_getslots@8 = @ILT+375(_skysearch_getslots@8)
+          6    5 00040285 _skysearch_many@16 = @ILT+640(_skysearch_many@16)
+          7    6 00040B4F _skysearch_one@12 = @ILT+2890(_skysearch_one@12)
+
+  Summary
+
+     4E08000 .data
+        1000 .idata
+        B000 .rdata
+       20000 .reloc
+        1000 .rsrc
+       81000 .text
+       3F000 .textbss

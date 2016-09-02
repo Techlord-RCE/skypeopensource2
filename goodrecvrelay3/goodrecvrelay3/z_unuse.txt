@@ -1,0 +1,37 @@
+//
+// session prepare, make semi-random chat_string for it
+//
+unsigned int make_tcp_client_prepare_chatinit(){
+	int tmplen;
+	unsigned int chatrnd;
+
+
+	//bc5ffd9299132ea5
+	//16 byte
+    //CHAR_RND_ID = bc5ffd9299132ea5
+	//tmplen=strlen(CHAT_STRING)-16;
+	//memcpy(CHAT_STRING+tmplen,"bc5ffd9299132ea5",16);
+
+
+	tmplen=strlen(CHAT_STRING)-4;
+	chatrnd=(rand() % 0x9);
+	CHAT_STRING[tmplen]=CHAT_STRING[tmplen]+chatrnd;
+	tmplen++;
+	debuglog("chatrnd=%d\n",chatrnd);
+	chatrnd=(rand() % 0x9);
+	CHAT_STRING[tmplen]=CHAT_STRING[tmplen]+chatrnd;
+	tmplen++;
+	debuglog("chatrnd=%d\n",chatrnd);
+	chatrnd=(rand() % 0x9);
+	CHAT_STRING[tmplen]=CHAT_STRING[tmplen]+chatrnd;
+	tmplen++;
+	debuglog("chatrnd=%d\n",chatrnd);
+	chatrnd=(rand() % 0x9);
+	CHAT_STRING[tmplen]=CHAT_STRING[tmplen]+chatrnd;
+	tmplen++;
+	debuglog("chatrnd=%d\n",chatrnd);
+
+	debuglog("CHAT ID:%s\n",CHAT_STRING);
+
+	return 0;
+};
